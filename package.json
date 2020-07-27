@@ -1,0 +1,19 @@
+{
+  "name": "code-gen-duplication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gen": "graphql-codegen --config codegen.yml"
+  },
+  "author": "Patrick Desjardins <mrdesjardins@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-codegen/add": "^1.15.3",
+    "@graphql-codegen/cli": "^1.15.3",
+    "@graphql-codegen/introspection": "^1.15.3",
+    "@graphql-codegen/typescript": "^1.15.3",
+    "@graphql-codegen/typescript-resolvers": "^1.15.1",
+    "graphql": "^15.3.0"
+  }
+}
