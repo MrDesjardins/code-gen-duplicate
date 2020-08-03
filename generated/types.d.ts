@@ -11,7 +11,7 @@ export type Scalars = {
 };
 
 export enum TestEnum {
-  A = 'a',
+  a = 'a',
   A = 'A'
 }
 

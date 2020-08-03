@@ -10,4 +10,6 @@ generates:
       maybeValue: T | undefined
       preResolveTypes: true
       avoidOptionals: true
-      defaultMapper: Partial<{T}> 
+      defaultMapper: Partial<{T}>
+      namingConvention:
+        enumValues: "keep"
